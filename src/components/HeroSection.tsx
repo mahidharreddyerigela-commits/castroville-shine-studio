@@ -25,7 +25,7 @@ const HeroSection = () => {
             </div>
           </div>
           <p className="text-white/80 text-sm md:text-base">
-            Premium Window Tinting & Graphics • Castroville, TX
+            Premium MaxPro Window Tinting & Graphics • Castroville, TX
           </p>
         </div>
       </header>
@@ -41,7 +41,7 @@ const HeroSection = () => {
         
         <div className="relative z-10 container mx-auto px-4 text-center text-white">
           <h2 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            Premium Window Tint & Graphics for Every Surface
+            Premium MaxPro Window Tint & Graphics for Every Surface
           </h2>
         
         <div className="flex items-center justify-center gap-2 mb-4">

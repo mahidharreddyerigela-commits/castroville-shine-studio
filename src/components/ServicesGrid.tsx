@@ -4,8 +4,8 @@ const ServicesGrid = () => {
   const services = [
     {
       icon: Building2,
-      title: "Industrial Tinting",
-      description: "Reduce heat & protect machinery. Ask for a tailored quote.",
+      title: "Industrial MaxPro Tinting",
+      description: "MaxPro films reduce heat & protect machinery. Ask for a tailored quote.",
       gradient: "from-brand-navy to-brand-navy/80"
     },
     {
@@ -16,14 +16,14 @@ const ServicesGrid = () => {
     },
     {
       icon: Home,
-      title: "Residential Solar Film",
-      description: "Cooler rooms, lower bills. Get a free evaluation.",
+      title: "Residential MaxPro Solar Film",
+      description: "MaxPro films keep rooms cooler, lower bills. Get a free evaluation.",
       gradient: "from-brand-navy to-brand-navy/80"
     },
     {
       icon: Car,
-      title: "Automotive Window Tint",
-      description: "Stay shaded on the road. Book your slot.",
+      title: "Automotive MaxPro Window Tint",
+      description: "MaxPro films keep you shaded on the road. Book your slot.",
       gradient: "from-accent to-accent/80"
     }
   ];
@@ -41,7 +41,7 @@ const ServicesGrid = () => {
             Our Services
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Professional window solutions for every need
+            Professional MaxPro window film solutions for every need
           </p>
         </div>
         
