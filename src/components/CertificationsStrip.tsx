@@ -4,8 +4,8 @@ const CertificationsStrip = () => {
   const certifications = [
     {
       icon: Award,
-      name: "3M™ Authorized Dealer",
-      description: "Official 3M dealer status"
+      name: "MaxPro Films Authorized Dealer",
+      description: "Official MaxPro Films dealer status"
     },
     {
       icon: Shield,
