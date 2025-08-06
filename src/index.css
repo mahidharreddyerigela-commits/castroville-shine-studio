@@ -1,42 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* H.P. Tint Design System */
 
 @layer base {
   :root {
+    /* Brand Colors */
+    --brand-navy: 208 72% 13%; /* #0D2235 */
+    --brand-amber: 45 100% 50%; /* #FFB300 */
+    --brand-navy-light: 208 45% 25%;
+    --brand-amber-light: 45 100% 75%;
+    
+    /* Semantic Colors */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 208 72% 13%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 208 72% 13%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 208 72% 13%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 208 72% 13%; /* Navy */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 208 72% 13%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 45 100% 50%; /* Amber */
+    --accent-foreground: 208 72% 13%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 208 72% 13%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--brand-navy)) 0%, hsl(var(--brand-navy-light)) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(var(--brand-amber)) 0%, hsl(var(--brand-amber-light)) 100%);
+    
+    /* Shadows */
+    --shadow-brand: 0 10px 25px -5px hsl(var(--brand-navy) / 0.2);
+    --shadow-amber: 0 10px 25px -5px hsl(var(--brand-amber) / 0.3);
 
     --sidebar-background: 0 0% 98%;
 
@@ -100,6 +115,39 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-body;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-semibold;
+  }
+}
+
+@layer components {
+  /* Brand Button Variants */
+  .btn-navy {
+    @apply bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 shadow-lg hover:shadow-xl font-medium px-6 py-3 rounded-xl;
+  }
+  
+  .btn-amber {
+    @apply bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-300 shadow-lg hover:shadow-xl font-medium px-6 py-3 rounded-xl;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 font-medium px-6 py-3 rounded-xl;
+  }
+
+  /* Animations */
+  .fade-up {
+    @apply opacity-0 translate-y-4 transition-all duration-700 ease-out;
+  }
+  
+  .fade-up.animate {
+    @apply opacity-100 translate-y-0;
+  }
+
+  /* Mobile sticky bar */
+  .mobile-sticky-bar {
+    @apply fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t shadow-2xl z-50 p-4 flex gap-3;
   }
 }

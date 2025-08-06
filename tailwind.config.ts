@@ -18,12 +18,18 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'display': ['Oswald', 'sans-serif'],
+				'body': ['Inter', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				'brand-navy': 'hsl(var(--brand-navy))',
+				'brand-amber': 'hsl(var(--brand-amber))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
@@ -62,6 +68,14 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-accent': 'var(--gradient-accent)',
+			},
+			boxShadow: {
+				'brand': 'var(--shadow-brand)',
+				'amber': 'var(--shadow-amber)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

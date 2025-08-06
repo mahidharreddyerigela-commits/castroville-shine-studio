@@ -1,0 +1,65 @@
+import { Phone, FileText, Star } from "lucide-react";
+import heroImage from "@/assets/hero-collage.jpg";
+
+const HeroSection = () => {
+  const scrollToQuote = () => {
+    const element = document.getElementById('quote-form');
+    element?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  return (
+    <section 
+      id="hero" 
+      className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: `url(${heroImage})` }}
+      data-aos="fade-up"
+    >
+      {/* Navy overlay */}
+      <div className="absolute inset-0 bg-brand-navy/70"></div>
+      
+      <div className="relative z-10 container mx-auto px-4 text-center text-white">
+        <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+          Premium Window Tint & Graphics for Every Surface
+        </h1>
+        
+        <div className="flex items-center justify-center gap-2 mb-4">
+          <span className="text-lg md:text-xl">Trusted by businesses, homeowners & drivers</span>
+          <div className="flex items-center gap-1">
+            <span className="text-accent text-lg md:text-xl">•</span>
+            <span className="text-lg md:text-xl">Google</span>
+            <div className="flex">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className="w-5 h-5 fill-accent text-accent" />
+              ))}
+            </div>
+            <span className="text-lg md:text-xl font-semibold">5.0</span>
+          </div>
+        </div>
+        
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-8">
+          <a 
+            href="tel:+12109564089"
+            className="btn-navy flex items-center gap-3 text-lg px-8 py-4 w-full sm:w-auto"
+          >
+            <Phone size={24} />
+            <span>Call Now</span>
+          </a>
+          
+          <button 
+            onClick={scrollToQuote}
+            className="btn-amber flex items-center gap-3 text-lg px-8 py-4 w-full sm:w-auto"
+          >
+            <FileText size={24} />
+            <span>Request a Quote</span>
+          </button>
+        </div>
+        
+        <div className="mt-12 text-sm md:text-base opacity-90">
+          <p>Professional installation • Lifetime warranty • Local Castroville experts</p>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;
