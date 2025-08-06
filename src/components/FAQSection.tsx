@@ -15,11 +15,11 @@ const FAQSection = () => {
     },
     {
       question: "Do you offer warranty?",
-      answer: "Absolutely! We provide a lifetime warranty on both the film and our workmanship. This covers bubbling, peeling, discoloration, and installation defects. We stand behind our quality work and use only premium materials from trusted manufacturers like 3M and SunTek."
+      answer: "Absolutely! We provide a lifetime warranty on both the film and our workmanship. This covers bubbling, peeling, discoloration, and installation defects. We stand behind our quality work and use only premium materials from trusted manufacturers like MaxPro Films and SunTek."
     },
     {
       question: "What types of film do you use?",
-      answer: "We use only premium films from industry leaders including 3M, SunTek, and other top-tier manufacturers. Options include ceramic films, carbon films, and crystalline films for different performance needs and budgets. We'll recommend the best option based on your specific requirements."
+      answer: "We use only premium films from industry leaders including MaxPro Films, SunTek, and other top-tier manufacturers. Options include ceramic films, carbon films, and crystalline films for different performance needs and budgets. We'll recommend the best option based on your specific requirements."
     },
     {
       question: "Can you remove old tint?",
