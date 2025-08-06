@@ -12,10 +12,19 @@ const HeroSection = () => {
       {/* Company Header */}
       <header className="relative z-50 bg-brand-navy text-white py-4">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="font-display text-2xl md:text-3xl font-bold">
-            H.P. Tint, Graphics & Signs
-          </h1>
-          <p className="text-white/80 text-sm md:text-base mt-1">
+          <div className="flex items-center justify-center gap-4 mb-2">
+            <img 
+              src="/lovable-uploads/c05630c2-9a48-4dac-8d9f-7ec625f89229.png" 
+              alt="H.P. Tint Graphics & Signs Logo" 
+              className="w-16 h-16 md:w-20 md:h-20"
+            />
+            <div>
+              <h1 className="font-display text-2xl md:text-3xl font-bold">
+                H.P. Tint, Graphics & Signs
+              </h1>
+            </div>
+          </div>
+          <p className="text-white/80 text-sm md:text-base">
             Premium Window Tinting & Graphics • Castroville, TX
           </p>
         </div>
