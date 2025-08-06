@@ -2,30 +2,14 @@ import { useState } from "react";
 import { Send, CheckCircle } from "lucide-react";
 
 const ContactForm = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    projectType: '',
-    message: ''
-  });
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Here you would typically send the form data to your backend
-    // For now, we'll just show a success message
     setIsSubmitted(true);
     setTimeout(() => setIsSubmitted(false), 5000);
-    setFormData({ name: '', email: '', phone: '', projectType: '', message: '' });
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
 
   if (isSubmitted) {
     return (
@@ -66,35 +50,31 @@ const ContactForm = () => {
         </div>
         
         <div className="max-w-2xl mx-auto">
-          <form onSubmit={handleSubmit} className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
+          <form action="https://formspree.io/f/xblkzqap" method="POST" className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium mb-2">
+                <label htmlFor="Name" className="block text-sm font-medium mb-2">
                   Full Name *
                 </label>
                 <input
                   type="text"
-                  id="name"
-                  name="name"
+                  id="Name"
+                  name="Name"
                   required
-                  value={formData.name}
-                  onChange={handleChange}
                   className="w-full px-4 py-3 rounded-xl bg-white/20 border border-white/30 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
                   placeholder="Your full name"
                 />
               </div>
               
               <div>
-                <label htmlFor="phone" className="block text-sm font-medium mb-2">
+                <label htmlFor="Phone" className="block text-sm font-medium mb-2">
                   Phone Number *
                 </label>
                 <input
                   type="tel"
-                  id="phone"
-                  name="phone"
+                  id="Phone"
+                  name="Phone"
                   required
-                  value={formData.phone}
-                  onChange={handleChange}
                   className="w-full px-4 py-3 rounded-xl bg-white/20 border border-white/30 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
                   placeholder="(210) 555-0123"
                 />
@@ -102,54 +82,42 @@ const ContactForm = () => {
             </div>
             
             <div className="mb-6">
-              <label htmlFor="email" className="block text-sm font-medium mb-2">
+              <label htmlFor="Email" className="block text-sm font-medium mb-2">
                 Email Address *
               </label>
               <input
                 type="email"
-                id="email"
-                name="email"
+                id="Email"
+                name="Email"
                 required
-                value={formData.email}
-                onChange={handleChange}
                 className="w-full px-4 py-3 rounded-xl bg-white/20 border border-white/30 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
                 placeholder="your.email@example.com"
               />
             </div>
             
             <div className="mb-6">
-              <label htmlFor="projectType" className="block text-sm font-medium mb-2">
-                Project Type *
+              <label htmlFor="Vehicle / Project Type" className="block text-sm font-medium mb-2">
+                Vehicle / Project Type
               </label>
-              <select
-                id="projectType"
-                name="projectType"
-                required
-                value={formData.projectType}
-                onChange={handleChange}
-                className="w-full px-4 py-3 rounded-xl bg-white/20 border border-white/30 text-white focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
-              >
-                <option value="" className="text-gray-800">Select project type</option>
-                <option value="automotive" className="text-gray-800">Automotive Window Tint</option>
-                <option value="residential" className="text-gray-800">Residential Solar Film</option>
-                <option value="commercial" className="text-gray-800">Commercial Storefront</option>
-                <option value="industrial" className="text-gray-800">Industrial Tinting</option>
-                <option value="other" className="text-gray-800">Other</option>
-              </select>
+              <input
+                type="text"
+                id="Vehicle / Project Type"
+                name="Vehicle / Project Type"
+                className="w-full px-4 py-3 rounded-xl bg-white/20 border border-white/30 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
+                placeholder="Vehicle Make/Model or Project Type"
+              />
             </div>
             
             <div className="mb-8">
-              <label htmlFor="message" className="block text-sm font-medium mb-2">
-                Project Details
+              <label htmlFor="Message" className="block text-sm font-medium mb-2">
+                Message
               </label>
               <textarea
-                id="message"
-                name="message"
+                id="Message"
+                name="Message"
                 rows={4}
-                value={formData.message}
-                onChange={handleChange}
                 className="w-full px-4 py-3 rounded-xl bg-white/20 border border-white/30 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent resize-none"
-                placeholder="Tell us more about your project, preferred timeline, or any specific requirements..."
+                placeholder="Your Message"
               ></textarea>
             </div>
             
@@ -158,11 +126,11 @@ const ContactForm = () => {
               className="w-full btn-amber flex items-center justify-center gap-3 text-lg py-4"
             >
               <Send size={24} />
-              <span>Send Quote Request</span>
+              <span>Send Enquiry</span>
             </button>
             
             <p className="text-sm text-white/70 text-center mt-4">
-              * Required fields. We typically respond within 24 hours.
+              We typically respond within 24 hours.
             </p>
           </form>
         </div>
