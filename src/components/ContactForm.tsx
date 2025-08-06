@@ -50,7 +50,7 @@ const ContactForm = () => {
         </div>
         
         <div className="max-w-2xl mx-auto">
-          <form action="https://formspree.io/f/xblkzqap" method="POST" className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
+          <form action="https://formspree.io/f/xldlpqwb" method="POST" className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
               <div>
                 <label htmlFor="Name" className="block text-sm font-medium mb-2">
