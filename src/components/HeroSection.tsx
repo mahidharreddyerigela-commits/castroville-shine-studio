@@ -8,19 +8,32 @@ const HeroSection = () => {
   };
 
   return (
-    <section 
-      id="hero" 
-      className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url(${heroImage})` }}
-      data-aos="fade-up"
-    >
-      {/* Navy overlay */}
-      <div className="absolute inset-0 bg-brand-navy/70"></div>
-      
-      <div className="relative z-10 container mx-auto px-4 text-center text-white">
-        <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-          Premium Window Tint & Graphics for Every Surface
-        </h1>
+    <>
+      {/* Company Header */}
+      <header className="relative z-50 bg-brand-navy text-white py-4">
+        <div className="container mx-auto px-4 text-center">
+          <h1 className="font-display text-2xl md:text-3xl font-bold">
+            H.P. Tint, Graphics & Signs
+          </h1>
+          <p className="text-white/80 text-sm md:text-base mt-1">
+            Premium Window Tinting & Graphics • Castroville, TX
+          </p>
+        </div>
+      </header>
+
+      <section 
+        id="hero" 
+        className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${heroImage})` }}
+        data-aos="fade-up"
+      >
+        {/* Navy overlay */}
+        <div className="absolute inset-0 bg-brand-navy/70"></div>
+        
+        <div className="relative z-10 container mx-auto px-4 text-center text-white">
+          <h2 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+            Premium Window Tint & Graphics for Every Surface
+          </h2>
         
         <div className="flex items-center justify-center gap-2 mb-4">
           <span className="text-lg md:text-xl">Trusted by businesses, homeowners & drivers</span>
@@ -54,11 +67,12 @@ const HeroSection = () => {
           </button>
         </div>
         
-        <div className="mt-12 text-sm md:text-base opacity-90">
-          <p>Professional installation • Lifetime warranty • Local Castroville experts</p>
+          <div className="mt-12 text-sm md:text-base opacity-90">
+            <p>Professional installation • Lifetime warranty • Local Castroville experts</p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 
