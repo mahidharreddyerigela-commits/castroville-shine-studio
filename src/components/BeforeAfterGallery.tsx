@@ -1,33 +1,49 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import beforeAfter1 from "@/assets/before-after-1.jpg";
-import beforeAfter2 from "@/assets/before-after-2.jpg";
-import beforeAfter3 from "@/assets/before-after-3.jpg";
-import beforeAfter4 from "@/assets/before-after-4.jpg";
 
 const BeforeAfterGallery = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   
   const slides = [
     {
-      image: beforeAfter1,
-      title: "Commercial Storefront Transformation",
-      description: "Enhanced privacy and reduced glare for better customer experience"
+      image: "/lovable-uploads/0c535a26-944b-4411-8486-1aefe8fe5fe8.png",
+      title: "Luxury SUV MaxPro Tinting",
+      description: "Professional MaxPro ceramic tint installation on Mercedes-Benz SUV"
     },
     {
-      image: beforeAfter2,
-      title: "Residential Solar Film Installation",
-      description: "Dramatic heat reduction while maintaining natural light"
+      image: "/lovable-uploads/4b1b3c9c-832a-4543-9cd9-b898727dde6e.png",
+      title: "Classic & Modern Vehicle Tinting",
+      description: "Expert MaxPro film application on both vintage and contemporary vehicles"
     },
     {
-      image: beforeAfter3,
-      title: "Automotive Ceramic Tint",
-      description: "Premium privacy and UV protection for luxury vehicles"
+      image: "/lovable-uploads/9e7ab8c2-d8b4-40af-b9fe-49feba4e6bc2.png",
+      title: "Range Rover Premium Tinting",
+      description: "High-end MaxPro window film for luxury vehicle protection and privacy"
     },
     {
-      image: beforeAfter4,
-      title: "Industrial Window Film",
-      description: "Energy efficiency and equipment protection for warehouses"
+      image: "/lovable-uploads/01a02a7d-269a-4b4a-be3a-7aab2fbf7d79.png",
+      title: "Residential Skylight Installation",
+      description: "Professional MaxPro film installation for residential energy efficiency"
+    },
+    {
+      image: "/lovable-uploads/f90565c3-7ce3-4ce3-9559-b398332b6604.png",
+      title: "Modern Home Window Tinting",
+      description: "Residential MaxPro films for comfort and energy savings"
+    },
+    {
+      image: "/lovable-uploads/6b40dbfd-d825-418f-94a2-2075222af2b2.png",
+      title: "Residential Exterior Protection",
+      description: "Complete home window film solution with MaxPro technology"
+    },
+    {
+      image: "/lovable-uploads/91b189e5-c51d-4c5a-a8db-2737da652218.png",
+      title: "Commercial Vehicle Tinting",
+      description: "Professional MaxPro installation for commercial fleet vehicles"
+    },
+    {
+      image: "/lovable-uploads/24ca000f-eda2-4343-8e3c-5fe971c940f6.png",
+      title: "Commercial Storefront",
+      description: "Professional storefront and commercial window film solutions"
     }
   ];
 
@@ -44,10 +60,10 @@ const BeforeAfterGallery = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-display text-4xl md:text-5xl font-bold text-primary mb-4">
-            See the Difference
+            Our Professional Work
           </h2>
           <p className="text-xl text-muted-foreground">
-            Real results from our professional installations
+            Recent MaxPro installations showcasing our quality and expertise
           </p>
         </div>
         
