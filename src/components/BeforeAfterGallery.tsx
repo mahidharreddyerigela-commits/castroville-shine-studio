@@ -44,6 +44,21 @@ const BeforeAfterGallery = () => {
       image: "/lovable-uploads/24ca000f-eda2-4343-8e3c-5fe971c940f6.png",
       title: "Commercial Storefront",
       description: "Professional storefront and commercial window film solutions"
+    },
+    {
+      image: "/lovable-uploads/967838c8-5e75-4edd-a361-4979e5332f4b.png",
+      title: "Lake House Window Film",
+      description: "Premium MaxPro residential installation for lakefront property"
+    },
+    {
+      image: "/lovable-uploads/e76eb60a-f5c8-438c-ade5-b56336dde93b.png",
+      title: "Contemporary Home Tinting",
+      description: "Modern residential MaxPro film for enhanced comfort and style"
+    },
+    {
+      image: "/lovable-uploads/bf61a768-f5ba-41ab-b12d-30c7595b3410.png",
+      title: "Deck Area Window Protection",
+      description: "MaxPro films for outdoor living spaces and patio doors"
     }
   ];
 
