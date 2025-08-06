@@ -15,19 +15,19 @@ const FAQSection = () => {
     },
     {
       question: "Do you offer warranty?",
-      answer: "Absolutely! We provide a lifetime warranty on both the film and our workmanship. This covers bubbling, peeling, discoloration, and installation defects. We stand behind our quality work and use only premium materials from trusted manufacturers like MaxPro Films and SunTek."
+      answer: "Absolutely! We provide a lifetime warranty on both the film and our workmanship. This covers bubbling, peeling, discoloration, and installation defects. We stand behind our quality work and use only premium MaxPro Films materials."
     },
     {
       question: "What types of film do you use?",
-      answer: "We use only premium films from industry leaders including MaxPro Films, SunTek, and other top-tier manufacturers. Options include ceramic films, carbon films, and crystalline films for different performance needs and budgets. We'll recommend the best option based on your specific requirements."
+      answer: "We use only premium MaxPro Films from the industry leader in window film technology. MaxPro offers ceramic films, carbon films, and crystalline films for different performance needs and budgets. We'll recommend the best MaxPro option based on your specific requirements."
     },
     {
       question: "Can you remove old tint?",
-      answer: "Yes, we provide professional tint removal services. We safely remove old, damaged, or bubbling tint without damaging your windows or leaving adhesive residue. This service is often included when you're upgrading to new, higher-quality film."
+      answer: "Yes, we provide professional tint removal services. We safely remove old, damaged, or bubbling tint without damaging your windows or leaving adhesive residue. This service is often included when you're upgrading to new, higher-quality MaxPro film."
     },
     {
       question: "Do you service commercial buildings?",
-      answer: "Absolutely! We specialize in commercial window film installation for offices, retail stores, restaurants, and industrial facilities. Our commercial services include energy-saving films, privacy films, decorative graphics, and safety/security films."
+      answer: "Absolutely! We specialize in commercial MaxPro window film installation for offices, retail stores, restaurants, and industrial facilities. Our commercial services include energy-saving films, privacy films, decorative graphics, and safety/security films."
     }
   ];
 
