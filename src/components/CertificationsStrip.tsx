@@ -1,3 +1,4 @@
+
 import { Award, Shield, Star, MapPin } from "lucide-react";
 
 const CertificationsStrip = () => {
@@ -9,7 +10,7 @@ const CertificationsStrip = () => {
     },
     {
       icon: Shield,
-      name: "SunTek® Certified",
+      name: "MaxPro Films Certified",
       description: "Premium film installer"
     },
     {
