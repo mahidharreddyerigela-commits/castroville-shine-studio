@@ -1,5 +1,5 @@
 import { Phone, FileText, Star } from "lucide-react";
-import heroImage from "@/assets/hero-collage.jpg";
+const heroImage = "/lovable-uploads/2999464a-f48f-4cf6-b870-53245f723f66.png";
 
 const HeroSection = () => {
   const scrollToQuote = () => {
