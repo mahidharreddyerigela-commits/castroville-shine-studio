@@ -66,6 +66,12 @@ const BeforeAfterGallery = () => {
         "Industrial PremiumTech installation on heavy machinery glass for heat, glare, and interior protection",
     },
     {
+      image: "/lovable-uploads/industrial-cat-316e-excavator-tint.jpeg",
+      title: "CAT 316E Excavator Cab Tinting",
+      description:
+        "PremiumTech heat-rejection film on a CAT 316E excavator cab — keeping operators cool and protected on the job site",
+    },
+    {
       image: "/lovable-uploads/24ca000f-eda2-4343-8e3c-5fe971c940f6.png",
       title: "Commercial Storefront",
       description:
