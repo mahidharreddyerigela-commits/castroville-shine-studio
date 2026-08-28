@@ -48,6 +48,24 @@ const BeforeAfterGallery = () => {
         "Professional PremiumTech installation for commercial fleet vehicles",
     },
     {
+      image: "/lovable-uploads/industrial-excavator-cab-tint.jpeg",
+      title: "Industrial Excavator Cab Tinting",
+      description:
+        "PremiumTech heat-rejection film on a John Deere 50G excavator cab — cooler operator cabin on long job days",
+    },
+    {
+      image: "/lovable-uploads/industrial-tractor-cab-tint.jpeg",
+      title: "Tractor Cab Glass Tinting",
+      description:
+        "PremiumTech film on tractor cab glass to cut glare and UV for operators working in full sun",
+    },
+    {
+      image: "/lovable-uploads/industrial-heavy-equipment-tint.jpeg",
+      title: "Heavy Equipment Window Film",
+      description:
+        "Industrial PremiumTech installation on heavy machinery glass for heat, glare, and interior protection",
+    },
+    {
       image: "/lovable-uploads/24ca000f-eda2-4343-8e3c-5fe971c940f6.png",
       title: "Commercial Storefront",
       description:
