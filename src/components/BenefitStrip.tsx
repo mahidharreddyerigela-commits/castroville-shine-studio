@@ -5,23 +5,23 @@ const BenefitStrip = () => {
     {
       icon: Zap,
       title: "Energy Savings",
-      description: "Reduce cooling costs up to 30%"
+      description: "Reduce cooling costs up to 30%",
     },
     {
       icon: Shield,
       title: "UV & Heat Rejection",
-      description: "99% UV protection guaranteed"
+      description: "99% UV protection guaranteed",
     },
     {
       icon: Eye,
       title: "Privacy & Security",
-      description: "Enhanced privacy without darkness"
+      description: "Enhanced privacy without darkness",
     },
     {
       icon: Award,
       title: "Lifetime Warranty",
-      description: "Film & workmanship guaranteed"
-    }
+      description: "Film & workmanship guaranteed",
+    },
   ];
 
   return (
@@ -36,9 +36,7 @@ const BenefitStrip = () => {
               <h3 className="font-display text-xl font-semibold mb-2 text-primary">
                 {benefit.title}
               </h3>
-              <p className="text-muted-foreground">
-                {benefit.description}
-              </p>
+              <p className="text-muted-foreground">{benefit.description}</p>
             </div>
           ))}
         </div>

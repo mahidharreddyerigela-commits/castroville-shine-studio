@@ -10,10 +10,13 @@ const ContactForm = () => {
     setTimeout(() => setIsSubmitted(false), 5000);
   };
 
-
   if (isSubmitted) {
     return (
-      <section id="quote-form" className="py-20 bg-brand-navy text-white" data-aos="fade-up">
+      <section
+        id="quote-form"
+        className="py-20 bg-brand-navy text-white"
+        data-aos="fade-up"
+      >
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-12">
@@ -22,11 +25,15 @@ const ContactForm = () => {
                 Thank You!
               </h2>
               <p className="text-xl text-white/90 mb-6">
-                We've received your quote request and will contact you within 24 hours.
+                We've received your quote request and will contact you within 24
+                hours.
               </p>
               <p className="text-white/80">
                 Need immediate assistance? Call us at{" "}
-                <a href="tel:+12109564089" className="text-accent font-semibold hover:underline">
+                <a
+                  href="tel:+12109564089"
+                  className="text-accent font-semibold hover:underline"
+                >
                   (210) 956-4089
                 </a>
               </p>
@@ -38,7 +45,11 @@ const ContactForm = () => {
   }
 
   return (
-    <section id="quote-form" className="py-20 bg-brand-navy text-white" data-aos="fade-up">
+    <section
+      id="quote-form"
+      className="py-20 bg-brand-navy text-white"
+      data-aos="fade-up"
+    >
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-display text-4xl md:text-5xl font-bold mb-4">
@@ -48,12 +59,19 @@ const ContactForm = () => {
             Tell us about your project and we'll provide a customized quote
           </p>
         </div>
-        
+
         <div className="max-w-2xl mx-auto">
-          <form action="https://formspree.io/f/xldlpqwb" method="POST" className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
+          <form
+            action="https://formspree.io/f/xldlpqwb"
+            method="POST"
+            className="bg-white/10 backdrop-blur-sm rounded-2xl p-8"
+          >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
               <div>
-                <label htmlFor="Name" className="block text-sm font-medium mb-2">
+                <label
+                  htmlFor="Name"
+                  className="block text-sm font-medium mb-2"
+                >
                   Full Name *
                 </label>
                 <input
@@ -65,9 +83,12 @@ const ContactForm = () => {
                   placeholder="Your full name"
                 />
               </div>
-              
+
               <div>
-                <label htmlFor="Phone" className="block text-sm font-medium mb-2">
+                <label
+                  htmlFor="Phone"
+                  className="block text-sm font-medium mb-2"
+                >
                   Phone Number *
                 </label>
                 <input
@@ -80,9 +101,12 @@ const ContactForm = () => {
                 />
               </div>
             </div>
-            
+
             <div className="mb-6">
-              <label htmlFor="Email" className="block text-sm font-medium mb-2">
+              <label
+                htmlFor="Email"
+                className="block text-sm font-medium mb-2"
+              >
                 Email Address *
               </label>
               <input
@@ -94,9 +118,12 @@ const ContactForm = () => {
                 placeholder="your.email@example.com"
               />
             </div>
-            
+
             <div className="mb-6">
-              <label htmlFor="Vehicle / Project Type" className="block text-sm font-medium mb-2">
+              <label
+                htmlFor="Vehicle / Project Type"
+                className="block text-sm font-medium mb-2"
+              >
                 Vehicle / Project Type
               </label>
               <input
@@ -107,9 +134,12 @@ const ContactForm = () => {
                 placeholder="Vehicle Make/Model or Project Type"
               />
             </div>
-            
+
             <div className="mb-8">
-              <label htmlFor="Message" className="block text-sm font-medium mb-2">
+              <label
+                htmlFor="Message"
+                className="block text-sm font-medium mb-2"
+              >
                 Message
               </label>
               <textarea
@@ -120,7 +150,7 @@ const ContactForm = () => {
                 placeholder="Your Message"
               ></textarea>
             </div>
-            
+
             <button
               type="submit"
               className="w-full btn-amber flex items-center justify-center gap-3 text-lg py-4"
@@ -128,7 +158,7 @@ const ContactForm = () => {
               <Send size={24} />
               <span>Send Enquiry</span>
             </button>
-            
+
             <p className="text-sm text-white/70 text-center mt-4">
               We typically respond within 24 hours.
             </p>

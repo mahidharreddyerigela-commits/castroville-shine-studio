@@ -4,33 +4,37 @@ const ServicesGrid = () => {
   const services = [
     {
       icon: Building2,
-      title: "Industrial MaxPro Tinting",
-      description: "MaxPro films reduce heat & protect machinery. Ask for a tailored quote.",
-      gradient: "from-brand-navy to-brand-navy/80"
+      title: "Industrial PremiumTech Tinting",
+      description:
+        "PremiumTech films reduce heat & protect machinery. Ask for a tailored quote.",
+      gradient: "from-brand-navy to-brand-navy/80",
     },
     {
       icon: Store,
-      title: "Commercial Storefronts", 
-      description: "Branded graphics that pull customers in. Enquire today.",
-      gradient: "from-accent to-accent/80"
+      title: "Commercial Storefronts",
+      description:
+        "Branded graphics that pull customers in. Enquire today.",
+      gradient: "from-accent to-accent/80",
     },
     {
       icon: Home,
-      title: "Residential MaxPro Solar Film",
-      description: "MaxPro films keep rooms cooler, lower bills. Get a free evaluation.",
-      gradient: "from-brand-navy to-brand-navy/80"
+      title: "Residential PremiumTech Solar Film",
+      description:
+        "PremiumTech films keep rooms cooler, lower bills. Get a free evaluation.",
+      gradient: "from-brand-navy to-brand-navy/80",
     },
     {
       icon: Car,
-      title: "Automotive MaxPro Window Tint",
-      description: "MaxPro films keep you shaded on the road. Book your slot.",
-      gradient: "from-accent to-accent/80"
-    }
+      title: "Automotive PremiumTech Window Tint",
+      description:
+        "PremiumTech films keep you shaded on the road. Book your slot.",
+      gradient: "from-accent to-accent/80",
+    },
   ];
 
   const scrollToQuote = () => {
-    const element = document.getElementById('quote-form');
-    element?.scrollIntoView({ behavior: 'smooth' });
+    const element = document.getElementById("quote-form");
+    element?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -41,14 +45,14 @@ const ServicesGrid = () => {
             Our Services
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Professional MaxPro window film solutions for every need
+            Professional PremiumTech window film solutions for every need
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {services.map((service, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className={`relative overflow-hidden rounded-2xl bg-gradient-to-br ${service.gradient} p-8 text-white group hover:scale-105 transition-all duration-300 shadow-brand`}
             >
               <div className="relative z-10">
@@ -59,14 +63,14 @@ const ServicesGrid = () => {
                 <p className="text-white/90 mb-6 text-lg">
                   {service.description}
                 </p>
-                <button 
+                <button
                   onClick={scrollToQuote}
                   className="btn-outline border-white text-white hover:bg-white hover:text-primary"
                 >
                   Enquire
                 </button>
               </div>
-              
+
               {/* Subtle pattern overlay */}
               <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.1),transparent_70%)]"></div>
             </div>

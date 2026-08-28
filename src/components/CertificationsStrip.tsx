@@ -1,32 +1,35 @@
-
 import { Award, Shield, Star, MapPin } from "lucide-react";
 
 const CertificationsStrip = () => {
   const certifications = [
     {
       icon: Award,
-      name: "MaxPro Films Authorized Dealer",
-      description: "Official MaxPro Films dealer status"
+      name: "PremiumTech Window Film Authorized Dealer",
+      description: "Official PremiumTech Window Film dealer status",
     },
     {
       icon: Shield,
-      name: "MaxPro Films Certified",
-      description: "Premium film installer"
+      name: "PremiumTech Window Film Certified",
+      description: "Premium film installer",
     },
     {
       icon: Star,
       name: "BBB A+ Rating",
-      description: "Better Business Bureau"
+      description: "Better Business Bureau",
     },
     {
       icon: MapPin,
       name: "Local First SA",
-      description: "Supporting local business"
-    }
+      description: "Supporting local business",
+    },
   ];
 
   return (
-    <section id="certifications" className="py-16 bg-secondary" data-aos="fade-up">
+    <section
+      id="certifications"
+      className="py-16 bg-secondary"
+      data-aos="fade-up"
+    >
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-display text-3xl md:text-4xl font-bold text-primary mb-4">
@@ -36,7 +39,7 @@ const CertificationsStrip = () => {
             Partnered with industry leaders for quality assurance
           </p>
         </div>
-        
+
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {certifications.map((cert, index) => (
             <div key={index} className="text-center group">

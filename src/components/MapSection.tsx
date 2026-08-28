@@ -12,7 +12,7 @@ const MapSection = () => {
             Conveniently located to serve San Antonio and surrounding areas
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Map */}
           <div className="relative h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-brand">
@@ -27,14 +27,14 @@ const MapSection = () => {
               title="H.P. Tint Location"
             ></iframe>
           </div>
-          
+
           {/* Contact Info */}
           <div className="space-y-8">
             <div className="bg-card rounded-2xl p-8 shadow-brand">
               <h3 className="font-display text-2xl font-bold text-primary mb-6">
                 Contact Information
               </h3>
-              
+
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="bg-accent rounded-full p-3">
@@ -43,12 +43,13 @@ const MapSection = () => {
                   <div>
                     <h4 className="font-semibold text-primary mb-1">Address</h4>
                     <p className="text-muted-foreground">
-                      1306 US-90 W Suite 1<br />
+                      1306 US-90 W Suite 1
+                      <br />
                       Castroville, TX 78009
                     </p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start gap-4">
                   <div className="bg-accent rounded-full p-3">
                     <Clock className="w-6 h-6 text-accent-foreground" />
@@ -56,19 +57,20 @@ const MapSection = () => {
                   <div>
                     <h4 className="font-semibold text-primary mb-1">Hours</h4>
                     <p className="text-muted-foreground">
-                      Monday - Saturday: 9 AM - 5 PM<br />
+                      Monday - Saturday: 9 AM - 5 PM
+                      <br />
                       Sunday: Closed
                     </p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start gap-4">
                   <div className="bg-accent rounded-full p-3">
                     <Phone className="w-6 h-6 text-accent-foreground" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-primary mb-1">Phone</h4>
-                    <a 
+                    <a
                       href="tel:+12109564089"
                       className="text-accent font-medium hover:underline"
                     >
@@ -76,13 +78,15 @@ const MapSection = () => {
                     </a>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start gap-4">
                   <div className="bg-accent rounded-full p-3">
                     <Mail className="w-6 h-6 text-accent-foreground" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-primary mb-1">Service Area</h4>
+                    <h4 className="font-semibold text-primary mb-1">
+                      Service Area
+                    </h4>
                     <p className="text-muted-foreground">
                       Castroville, San Antonio, and surrounding areas
                     </p>
