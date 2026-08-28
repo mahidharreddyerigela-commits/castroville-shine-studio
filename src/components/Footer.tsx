@@ -121,7 +121,9 @@ const Footer = () => {
               <div className="flex items-center gap-3">
                 <Mail size={20} className="text-accent flex-shrink-0" />
                 <span className="text-primary-foreground/80">
-                  Mon-Sat: 9 AM - 5 PM
+                  Mon-Fri: 9 AM - 4 PM
+                  <br />
+                  Saturday: By Appointment Only
                   <br />
                   Sunday: Closed
                 </span>

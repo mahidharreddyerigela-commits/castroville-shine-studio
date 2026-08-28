@@ -57,7 +57,9 @@ const MapSection = () => {
                   <div>
                     <h4 className="font-semibold text-primary mb-1">Hours</h4>
                     <p className="text-muted-foreground">
-                      Monday - Saturday: 9 AM - 5 PM
+                      Monday - Friday: 9 AM - 4 PM
+                      <br />
+                      Saturday: By Appointment Only
                       <br />
                       Sunday: Closed
                     </p>

@@ -63,10 +63,9 @@ export const Route = createFileRoute("/")({
                 "Wednesday",
                 "Thursday",
                 "Friday",
-                "Saturday",
               ],
               opens: "09:00",
-              closes: "17:00",
+              closes: "16:00",
             },
           ],
           sameAs: [
