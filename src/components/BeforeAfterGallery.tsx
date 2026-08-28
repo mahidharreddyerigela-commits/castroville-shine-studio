@@ -6,10 +6,10 @@ const BeforeAfterGallery = () => {
 
   const slides = [
     {
-      image: "/lovable-uploads/ptwf-luxury-suv-mercedes.jpeg",
+      image: "/lovable-uploads/ptwf-luxury-suv-hp-tint.jpeg",
       title: "Luxury SUV PremiumTech Tinting",
       description:
-        "Professional PremiumTech ceramic tint installation on Mercedes-Benz SUV",
+        "Professional PremiumTech ceramic tint installation on Mercedes-Benz SUV at our Castroville shop",
     },
     {
       image: "/lovable-uploads/4b1b3c9c-832a-4543-9cd9-b898727dde6e.png",
