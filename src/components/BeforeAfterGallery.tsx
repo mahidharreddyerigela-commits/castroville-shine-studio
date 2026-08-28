@@ -6,7 +6,7 @@ const BeforeAfterGallery = () => {
 
   const slides = [
     {
-      image: "/lovable-uploads/0c535a26-944b-4411-8486-1aefe8fe5fe8.png",
+      image: "/lovable-uploads/ptwf-luxury-suv-mercedes.jpeg",
       title: "Luxury SUV PremiumTech Tinting",
       description:
         "Professional PremiumTech ceramic tint installation on Mercedes-Benz SUV",
