@@ -16,12 +16,12 @@ const HeroSection = () => {
           <div className="flex items-center justify-center gap-4 mb-2">
             <img
               src="/lovable-uploads/c05630c2-9a48-4dac-8d9f-7ec625f89229.png"
-              alt="H.P. Tint Window Tint and Distributions Logo"
+              alt="H.P. Tint Graphics and Signs - Distributions Logo"
               className="w-16 h-16 md:w-20 md:h-20"
             />
             <div>
               <h1 className="font-display text-2xl md:text-3xl font-bold">
-                H.P. Tint Window Tint and Distributions
+                H.P. Tint Graphics and Signs - Distributions
                 <span className="block text-base md:text-lg font-medium text-white/80">
                   Professional Window Tinting in Castroville, TX
                 </span>

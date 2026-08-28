@@ -7,7 +7,7 @@ export const Route = createFileRoute("/")({
     meta: [
       {
         title:
-          "H.P. Tint Window Tint and Distributions | Premium Window Tinting Castroville TX",
+          "H.P. Tint Graphics and Signs - Distributions | Premium Window Tinting Castroville TX",
       },
       {
         name: "description",
@@ -17,7 +17,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:title",
         content:
-          "H.P. Tint Window Tint and Distributions | Premium Window Tinting Castroville TX",
+          "H.P. Tint Graphics and Signs - Distributions | Premium Window Tinting Castroville TX",
       },
       {
         property: "og:description",
@@ -40,7 +40,7 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          name: "H.P. Tint Window Tint and Distributions",
+          name: "H.P. Tint Graphics and Signs - Distributions",
           description:
             "Industrial, commercial, residential and automotive window tinting and distributions in Castroville, TX.",
           url: "https://cheerful-beginnings-forge.lovable.app/",

@@ -81,18 +81,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         title:
-          "H.P. Tint Window Tint and Distributions | Premium Window Tinting Castroville TX",
+          "H.P. Tint Graphics and Signs - Distributions | Premium Window Tinting Castroville TX",
       },
       {
         name: "description",
         content:
           "Professional window tinting services in Castroville, TX. Commercial, residential, automotive, and industrial tinting solutions. 5-star Google rated. Lifetime warranty.",
       },
-      { name: "author", content: "H.P. Tint Window Tint and Distributions" },
+      { name: "author", content: "H.P. Tint Graphics and Signs - Distributions" },
       {
         property: "og:title",
         content:
-          "H.P. Tint Window Tint and Distributions | Premium Window Tinting Castroville TX",
+          "H.P. Tint Graphics and Signs - Distributions | Premium Window Tinting Castroville TX",
       },
       {
         property: "og:description",
