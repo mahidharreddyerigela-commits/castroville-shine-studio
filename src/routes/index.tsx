@@ -7,22 +7,22 @@ export const Route = createFileRoute("/")({
     meta: [
       {
         title:
-          "H.P. Tint Graphics and Signs - Distributions | Premium Window Tinting Castroville TX",
+          "H.P. Tint Graphics and Signs | PremiumTech Installer",
       },
       {
         name: "description",
         content:
-          "Professional window tinting services in Castroville, TX. Commercial, residential, automotive, and industrial tinting solutions. 5-star Google rated. Lifetime warranty.",
+          "PremiumTech Window Film installer and vendor in Castroville, TX for automotive, residential, commercial, and industrial tinting.",
       },
       {
         property: "og:title",
         content:
-          "H.P. Tint Graphics and Signs - Distributions | Premium Window Tinting Castroville TX",
+          "H.P. Tint Graphics and Signs | PremiumTech Installer",
       },
       {
         property: "og:description",
         content:
-          "Professional window tinting services in Castroville, TX. Commercial, residential, automotive, and industrial tinting solutions. 5-star Google rated. Lifetime warranty.",
+          "PremiumTech Window Film installer and vendor in Castroville, TX for automotive, residential, commercial, and industrial tinting.",
       },
       { property: "og:type", content: "website" },
       {
@@ -40,9 +40,9 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          name: "H.P. Tint Graphics and Signs - Distributions",
+          name: "H.P. Tint Graphics and Signs",
           description:
-            "Industrial, commercial, residential and automotive window tinting and distributions in Castroville, TX.",
+            "PremiumTech Window Film installer and vendor serving automotive, residential, commercial and industrial customers in Castroville, TX.",
           url: "https://cheerful-beginnings-forge.lovable.app/",
           telephone: "+1-210-956-4089",
           address: {

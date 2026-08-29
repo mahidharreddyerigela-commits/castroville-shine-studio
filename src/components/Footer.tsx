@@ -13,11 +13,11 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <h3 className="font-display text-2xl font-bold mb-4">
-              H.P. Tint Graphics and Signs - Distributions
+              H.P. Tint Graphics and Signs
             </h3>
             <p className="text-primary-foreground/80 mb-4">
-              Castroville's premium provider of industrial, commercial,
-              residential and automotive window tint and distributions.
+              Castroville's PremiumTech Window Film installer and vendor for
+              industrial, commercial, residential and automotive projects.
             </p>
             <div className="flex gap-4">
               <a
@@ -135,7 +135,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-primary-foreground/20 pt-8 text-center">
           <p className="text-primary-foreground/60">
-            © 2025 H.P. Tint Graphics and Signs - Distributions. All rights reserved.
+            © 2026 H.P. Tint Graphics and Signs. All rights reserved.
           </p>
         </div>
       </div>

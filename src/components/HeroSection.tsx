@@ -16,12 +16,12 @@ const HeroSection = () => {
           <div className="flex items-center justify-center gap-4 mb-2">
             <img
               src="/lovable-uploads/c05630c2-9a48-4dac-8d9f-7ec625f89229.png"
-              alt="H.P. Tint Graphics and Signs - Distributions Logo"
+              alt="H.P. Tint Graphics and Signs logo"
               className="w-16 h-16 md:w-20 md:h-20"
             />
             <div>
               <h1 className="font-display text-2xl md:text-3xl font-bold">
-                H.P. Tint Graphics and Signs - Distributions
+                H.P. Tint Graphics and Signs
                 <span className="block text-base md:text-lg font-medium text-white/80">
                   Professional Window Tinting in Castroville, TX
                 </span>
@@ -29,7 +29,7 @@ const HeroSection = () => {
             </div>
           </div>
           <p className="text-white/80 text-sm md:text-base">
-            PremiumTech Window Tint and Distributions • Castroville, TX
+            PremiumTech Window Film Installer & Vendor • Castroville, TX
           </p>
         </div>
       </header>
@@ -45,7 +45,7 @@ const HeroSection = () => {
 
         <div className="relative z-10 container mx-auto px-4 text-center text-white">
           <h2 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            PremiumTech Window Tint and Distributions for Every Surface
+            PremiumTech Window Film for Every Surface
           </h2>
 
           <div className="flex items-center justify-center gap-2 mb-4">
@@ -84,8 +84,8 @@ const HeroSection = () => {
 
           <div className="mt-12 text-sm md:text-base opacity-90">
             <p>
-              Professional installation • Lifetime warranty • Local Castroville
-              experts
+              Authorized PremiumTech installer & vendor • Lifetime warranty •
+              Local Castroville experts
             </p>
           </div>
         </div>

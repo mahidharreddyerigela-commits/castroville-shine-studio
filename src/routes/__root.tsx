@@ -81,23 +81,23 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         title:
-          "H.P. Tint Graphics and Signs - Distributions | Premium Window Tinting Castroville TX",
+          "H.P. Tint Graphics and Signs | PremiumTech Installer",
       },
       {
         name: "description",
         content:
-          "Professional window tinting services in Castroville, TX. Commercial, residential, automotive, and industrial tinting solutions. 5-star Google rated. Lifetime warranty.",
+          "PremiumTech Window Film installer and vendor in Castroville, TX for automotive, residential, commercial, and industrial tinting.",
       },
-      { name: "author", content: "H.P. Tint Graphics and Signs - Distributions" },
+      { name: "author", content: "H.P. Tint Graphics and Signs" },
       {
         property: "og:title",
         content:
-          "H.P. Tint Graphics and Signs - Distributions | Premium Window Tinting Castroville TX",
+          "H.P. Tint Graphics and Signs | PremiumTech Installer",
       },
       {
         property: "og:description",
         content:
-          "Professional window tinting services in Castroville, TX. Commercial, residential, automotive, and industrial tinting solutions. 5-star Google rated. Lifetime warranty.",
+          "PremiumTech Window Film installer and vendor in Castroville, TX for automotive, residential, commercial, and industrial tinting.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -108,7 +108,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: appCss,
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", href: "/favicon.png", type: "image/png" },
       {
         rel: "preconnect",
         href: "https://fonts.googleapis.com",

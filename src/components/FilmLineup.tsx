@@ -46,12 +46,18 @@ const FilmLineup = () => {
     <section id="film-lineup" className="py-20 bg-secondary" data-aos="fade-up">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
+          <img
+            src="/lovable-uploads/premiumtech-window-film-logo.png"
+            alt="PremiumTech Window Film"
+            loading="lazy"
+            className="w-full max-w-sm h-auto mx-auto mb-6"
+          />
           <h2 className="font-display text-4xl md:text-5xl font-bold text-primary mb-4">
             Our PremiumTech Film Lineup
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            We install PremiumTech Window Film (PTWF) exclusively — pick the
-            series that fits your ride and your budget
+            Your local PremiumTech Window Film installer and vendor — choose
+            the series that fits your project and budget
           </p>
         </div>
 
